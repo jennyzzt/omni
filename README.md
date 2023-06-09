@@ -20,7 +20,7 @@ This is the source code repository for the [OMNI: Open-endedness via Models of h
 Clone the repository with `git clone <repo_url> && cd omni_code`.\
 Create python virtual environment `python3 -m venv venv`.\
 Activate python virtual environment `source venv/bin/activate`.\
-Install dependencies `pip -r install requirements.txt`.
+Install dependencies `pip install -r requirements.txt`.
 
 ## Training
 Run `train.py` script with the necessary args:
