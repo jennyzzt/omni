@@ -1,6 +1,8 @@
-# OMNI: Open-endedness via Models of human Notions of Interestingness
+# OMNI: Open-endedness via Models of human Notions of Interestingness  [[Arxiv]](https://arxiv.org/abs/2306.01711) [[Tweet]](https://twitter.com/jeffclune/status/1666082258888056834)
 
-This is the source code repository for the [OMNI: Open-endedness via Models of human Notions of Interestingness]() paper.
+https://github.com/jennyzzt/omni/assets/53294998/a681f581-58ad-4b7f-b365-3c8505d697cf
+
+This is the source code repository for the [OMNI: Open-endedness via Models of human Notions of Interestingness](https://arxiv.org/abs/2306.01711) paper. OMNI utilizes large (language) models as a model of interestingness, because they already internalize human concepts of interestingness from training on vast amounts of human-generated data. This repository implements OMNI on a procedurally generated 2D gridworld gomain Crafter.
 
 ## Code Layout
 - `crafter/` folder contains Crafter environment code
@@ -18,7 +20,7 @@ This is the source code repository for the [OMNI: Open-endedness via Models of h
 Clone the repository with `git clone <repo_url> && cd omni_code`.\
 Create python virtual environment `python3 -m venv venv`.\
 Activate python virtual environment `source venv/bin/activate`.\
-Install dependencies `pip -r install requirements.txt`.
+Install dependencies `pip install -r requirements.txt`.
 
 ## Training
 Run `train.py` script with the necessary args:
@@ -42,3 +44,13 @@ python crafter/run_gui.py --env <env_name>
 This codebase draws inspiration from the following codebases:
 - [Crafter](https://github.com/danijar/crafter)
 - [torch-ac](https://github.com/lcswillems/torch-ac)
+
+## Citation
+```
+@article{zhang2023omni,
+  title={OMNI: Open-endedness via Models of human Notions of Interestingness},
+  author={Jenny Zhang and Joel Lehman and Kenneth Stanley and Jeff Clune},
+  year={2023},
+  journal={arXiv preprint arXiv:2306.01711},
+}
+```
