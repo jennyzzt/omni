@@ -1,4 +1,4 @@
-# OMNI: Open-endedness via Models of human Notions of Interestingness  [[Arxiv]](https://arxiv.org/abs/2306.01711) [[Tweet]](https://twitter.com/jeffclune/status/1666082258888056834)
+# OMNI: Open-endedness via Models of human Notions of Interestingness  [[Arxiv]](https://arxiv.org/abs/2306.01711) [[Website]](http://www.jennyzhangzt.com/omni/) [[Tweet]](https://twitter.com/jeffclune/status/1666082258888056834)
 
 https://github.com/jennyzzt/omni/assets/53294998/a681f581-58ad-4b7f-b365-3c8505d697cf
 
