@@ -27,6 +27,10 @@ Run `train.py` script with the necessary args:
 ```
 python train.py --model <model_name> --env <env_name>
 ```
+For example, in the repetitive Crafter task setting  
+Uniform: `python train.py --model tr_uni-1 --env tr_uni --seed 1`  
+LP: `python train.py --model tr_lp-1 --env tr_lp --seed 1`  
+OMNI: `python train.py --model tr_omni-1 --env tr_omni --seed 1`  
 
 ## Evaluation
 Run `evaluate.py` script with the necessary args:
