@@ -25,8 +25,7 @@ class Env(env_tr_uni.Env):
 
   def _specify_curri_task(self):
     print(self.target_achievements)
-    task_idxs = [75, 60, 10]
-    # self.task_idx = np.random.choice(np.arange(len(self.target_achievements) + DUMMY_TASKS), size=1, p=self.task_probs)[0]
+    self.task_idx = np.random.choice(np.arange(len(self.target_achievements) + DUMMY_TASKS), size=1, p=self.task_probs)[0]
     self.task_steps = 0
     self.task_idx = 10
     print(self.target_achievements[self.task_idx])
